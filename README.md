@@ -9,7 +9,7 @@ This repo aims to track resources, materials, links, and milestones for your jou
 To get started with your study, follow these steps:
 
 1. **Clone or Fork**: Clone or fork this repository to your GitHub account.
-2. **Resources**: Explore the `Resources` section to find curated study materials, tutorials, and guides.
+2. **Resources**: Explore the [`Resources`](https://github.com/appatalks/GitHub-Certification-Paths/tree/main/Resources) section to find curated study materials, tutorials, and guides.
 3. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
 
 ## Milestones
