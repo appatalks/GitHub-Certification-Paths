@@ -61,7 +61,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 ### Study Materials
 
 - [Microsoft Learning Path](https://docs.microsoft.com/en-us/users/githubtraining/collections/rqymc6yw8q5rey): Microsoft's Learning Path for GitHub Advanced Security.
-[Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
+- [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
 
 ### Tutorials
 
