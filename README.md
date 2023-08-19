@@ -23,7 +23,7 @@ This project includes several milestones that represent significant achievements
 
 ## Contributing
 
-If you'd like to contribute to this project by suggesting new resources, improving documentation, or adding tasks, feel free to create a pull request. Your contributions are highly appreciated!
+If you'd like to contribute to this repository by suggesting new resources, improving documentation, or adding tasks, feel free to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Your contributions are highly appreciated!
 
 ## License
 
