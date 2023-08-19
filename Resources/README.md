@@ -31,7 +31,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Bonus Material
 
--
+- YouTube - [Git & GitHub Crash Course 2023 - Academind](https://www.youtube.com/watch?v=ulQA5tjJark)
 
 ----
 
