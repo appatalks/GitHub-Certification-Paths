@@ -19,21 +19,15 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Study Materials
 
-- [Resource Title 1](link-to-resource-1): Description or summary of the resource.
-- [Resource Title 2](link-to-resource-2): Description or summary of the resource.
-- [Resource Title 3](link-to-resource-3): Description or summary of the resource.
+- [Resource Title 1](link-to-resource-1): PLACEHOLDER
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): Description or summary of the tutorial.
-- [Tutorial Title 2](link-to-tutorial-2): Description or summary of the tutorial.
-- [Tutorial Title 3](link-to-tutorial-3): Description or summary of the tutorial.
+- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
 
 ### Guides
 
-- [Guide Title 1](link-to-guide-1): Description or summary of the guide.
-- [Guide Title 2](link-to-guide-2): Description or summary of the guide.
-- [Guide Title 3](link-to-guide-3): Description or summary of the guide.
+- [Guide Title 1](link-to-guide-1): PLACEHOLDER
 
 ### Bonus Material
 
@@ -45,14 +39,12 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Study Materials
 
-- [Microsoft Learning Path](https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03): Microsoft's Learning Path for GitHub Administration
+- [Microsoft Learning Path](https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03): Microsoft's Learning Path for GitHub Administration.
 - [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): Description or summary of the tutorial.
-- [Tutorial Title 2](link-to-tutorial-2): Description or summary of the tutorial.
-- [Tutorial Title 3](link-to-tutorial-3): Description or summary of the tutorial.
+- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
 
 ### Guides
 
@@ -68,21 +60,16 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Study Materials
 
-- [Resource Title 1](link-to-resource-1): Description or summary of the resource.
-- [Resource Title 2](link-to-resource-2): Description or summary of the resource.
-- [Resource Title 3](link-to-resource-3): Description or summary of the resource.
+- [Microsoft Learning Path](https://docs.microsoft.com/en-us/users/githubtraining/collections/rqymc6yw8q5rey): Microsoft's Learning Path for GitHub Advanced Security.
+[Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): Description or summary of the tutorial.
-- [Tutorial Title 2](link-to-tutorial-2): Description or summary of the tutorial.
-- [Tutorial Title 3](link-to-tutorial-3): Description or summary of the tutorial.
-
+- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
+  
 ### Guides
 
-- [Guide Title 1](link-to-guide-1): Description or summary of the guide.
-- [Guide Title 2](link-to-guide-2): Description or summary of the guide.
-- [Guide Title 3](link-to-guide-3): Description or summary of the guide.
+- [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
 
 ### Bonus Material
 
@@ -94,21 +81,16 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Study Materials
 
-- [Resource Title 1](link-to-resource-1): Description or summary of the resource.
-- [Resource Title 2](link-to-resource-2): Description or summary of the resource.
-- [Resource Title 3](link-to-resource-3): Description or summary of the resource.
+- [Microsoft Learning Path](https://docs.microsoft.com/en-us/learn/paths/automate-workflow-github-actions/): Microsoft's Learning Path for GitHub Actions.
+- [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): Description or summary of the tutorial.
-- [Tutorial Title 2](link-to-tutorial-2): Description or summary of the tutorial.
-- [Tutorial Title 3](link-to-tutorial-3): Description or summary of the tutorial.
-
+- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
+  
 ### Guides
 
-- [Guide Title 1](link-to-guide-1): Description or summary of the guide.
-- [Guide Title 2](link-to-guide-2): Description or summary of the guide.
-- [Guide Title 3](link-to-guide-3): Description or summary of the guide.
+- [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
 
 ### Bonus Material
 
