@@ -41,7 +41,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Study Materials
 
-- [Resource Title 1](link-to-resource-1): Description or summary of the resource.
+- [Microsoft Learning Path](https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03): Microsof's Learning Path for GitHub Administration
 - [Resource Title 2](link-to-resource-2): Description or summary of the resource.
 - [Resource Title 3](link-to-resource-3): Description or summary of the resource.
 
