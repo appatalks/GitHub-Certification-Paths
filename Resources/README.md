@@ -35,6 +35,10 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 - [Guide Title 2](link-to-guide-2): Description or summary of the guide.
 - [Guide Title 3](link-to-guide-3): Description or summary of the guide.
 
+### Bonus Material
+
+-
+
 ----
 
 ### <a name="GitHub-Administration-Certification"></a> GitHub Administration Certification
@@ -53,6 +57,10 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 ### Guides
 
 - [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
+
+### Bonus Material
+
+- 
 
 ----
 
@@ -76,6 +84,10 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 - [Guide Title 2](link-to-guide-2): Description or summary of the guide.
 - [Guide Title 3](link-to-guide-3): Description or summary of the guide.
 
+### Bonus Material
+
+- 
+
 ----
 
 ### <a name="GitHub-Actions-Certification"></a> GitHub Actions Certification
@@ -98,6 +110,9 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 - [Guide Title 2](link-to-guide-2): Description or summary of the guide.
 - [Guide Title 3](link-to-guide-3): Description or summary of the guide.
 
+### Bonus Material
+
+- [GitHub Actions Security Best Practices](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)
 
 ----
 
