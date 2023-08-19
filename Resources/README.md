@@ -8,14 +8,14 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Sections
 
-- [GitHub Fundementals Certification](#user-content-GitHub-Fundementals-Certification)
+- [GitHub Fundamentals Certification](#user-content-GitHub-Fundamentals-Certification)
 - [GitHub Administation Certification](#user-content-GitHub-Administration-Certification)
 - [GitHub Advanced Security Certification](#user-content-GitHub-Advanced-Security-Certification)
 - [GitHub Actions Certification](#user-content-GitHub-Actions-Certification)
 
 ----
 
-### <a name="GitHub-Fundementals-Certification"></a> GitHub Fundementals Certification 
+### <a name="GitHub-Fundamentals-Certification"></a> GitHub Fundamentals Certification 
 
 ### Study Materials
 
