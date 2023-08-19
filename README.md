@@ -16,10 +16,10 @@ To get started with your study, follow these steps:
 
 This project includes several milestones that represent significant achievements in my personal journey to GitHub Certification. Each milestone is associated with specific tasks and deadlines to help you stay on track.
 
-- **Milestone 1**: GitHub Administration Certification ```Status: Current Focus```
-- **Milestone 2**: GitHub Advanced Security Certification ```Status: Planned```
-- **Milestone 3**: GitHub Actions Certification ```Status: Planned```
-- **Milestone 4**: GitHub Fundamentals Certification ```Status: Not Started```
+- **Milestone 1**: GitHub Fundamentals Certification ```Status: Planned```
+- **Milestone 2**: GitHub Administration Certification ```Status: Current Focus```
+- **Milestone 3**: GitHub Advanced Security Certification ```Status: Planned```
+- **Milestone 4**: GitHub Actions Certification ```Status: Planned```
 
 ## Contributing
 
