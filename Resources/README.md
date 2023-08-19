@@ -43,7 +43,6 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 - [Microsoft Learning Path](https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03): Microsoft's Learning Path for GitHub Administration
 - [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
-- [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): Description or summary of the resource.
 
 ### Tutorials
 
@@ -53,9 +52,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Guides
 
-- [Guide Title 1](link-to-guide-1): Description or summary of the guide.
-- [Guide Title 2](link-to-guide-2): Description or summary of the guide.
-- [Guide Title 3](link-to-guide-3): Description or summary of the guide.
+- [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
 
 ----
 
