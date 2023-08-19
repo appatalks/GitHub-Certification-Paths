@@ -23,7 +23,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
+- [GitHub Skills Lab 1](https://github.com/skills/introduction-to-github): Introduction to GitHub
 
 ### Guides
 
@@ -44,7 +44,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
+- [GitHub Skills Lab 1](https://github.com/skills/hello-github-actions): Hello GitHub Actions
 
 ### Guides
 
