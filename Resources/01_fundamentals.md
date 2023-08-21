@@ -2,7 +2,7 @@
 
 ### Study Materials
 
-- [Resource Title 1](link-to-resource-1): PLACEHOLDER
+- Place Holder
 
 ### Tutorials
 
@@ -10,8 +10,9 @@
 
 ### Guides
 
-- [Guide Title 1](link-to-guide-1): PLACEHOLDER
+- PLACEHOLDER
 
 ### Bonus Material
 
+- [Terms of Service (TOS)](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) 
 - YouTube - [Git & GitHub Crash Course 2023 - Academind](https://www.youtube.com/watch?v=ulQA5tjJark)
