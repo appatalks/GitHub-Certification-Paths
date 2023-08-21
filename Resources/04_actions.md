@@ -7,7 +7,7 @@
 
 ### Tutorials
 
-- [Tutorial Title 1](link-to-tutorial-1): PLACEHOLDER
+- GitHub Training - [Excercise Use Secrets](https://github.com/githubtraining/exercise-use-secrets)
   
 ### Guides
 
