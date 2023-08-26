@@ -15,4 +15,4 @@
 
 ### Bonus Material
 
-- 
+- GitHub Blog: [Behind GitHub’s new authentication token formats](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
