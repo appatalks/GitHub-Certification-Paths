@@ -16,10 +16,10 @@ To get started with your study, follow these steps:
 
 This project includes several milestones that represent significant achievements in my personal journey to GitHub Certification. Each milestone is associated with specific tasks and deadlines to help you stay on track.
 
-- **Milestone 1**: GitHub Fundamentals Certification ```Status: Planned```
-- **Milestone 2**: GitHub Administration Certification ```Status:``` [```PASSED```](https://www.credly.com/badges/96464ff1-71bc-4f83-870e-b3875f532c00/public_url)
-- **Milestone 3**: GitHub Advanced Security Certification ```Status: Planned```
-- **Milestone 4**: GitHub Actions Certification ```Status: Planned```
+- **Milestone 1**: GitHub Fundamentals Certification ```Status: Planned Q? 2024```
+- **Milestone 2**: GitHub Administration Certification ```Status:``` [```PASS```](https://www.credly.com/badges/96464ff1-71bc-4f83-870e-b3875f532c00/public_url)
+- **Milestone 3**: GitHub Advanced Security Certification ```Status: Planned Q4 2023```
+- **Milestone 4**: GitHub Actions Certification ```Status: Planned Q4 2023```
 
 ## Contributing
 
