@@ -15,4 +15,4 @@
 ### Bonus Material
 
 - [Terms of Service (TOS)](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) 
-- [Git & GitHub Crash Course 2023 - Academind](https://www.youtube.com/watch?v=ulQA5tjJark): YouTube
+- [Git & GitHub Crash Course 2023](https://www.youtube.com/watch?v=ulQA5tjJark): YouTube Academind
