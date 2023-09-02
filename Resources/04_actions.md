@@ -7,7 +7,7 @@
 
 ### Tutorials
 
-- GitHub Training - [Excercise Use Secrets](https://github.com/githubtraining/exercise-use-secrets)
+- [GitHub Training](https://github.com/githubtraining/exercise-use-secrets): Excercise Use Secrets
   
 ### Guides
 
@@ -15,4 +15,5 @@
 
 ### Bonus Material
 
-- [GitHub Actions Security Best Practices](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)
+- [GitHub Actions Security Best Practices](https://blog.gitguardian.com/github-actions-security-cheat-sheet/) GitGuardian Blog
+- [GitHub Actions Full Course](https://www.youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY) YouTube glich.stream 
