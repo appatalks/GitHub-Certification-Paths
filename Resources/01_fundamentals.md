@@ -2,7 +2,7 @@
 
 ### Study Materials
 
-- Place Holder
+- 
 
 ### Tutorials
 
@@ -10,9 +10,9 @@
 
 ### Guides
 
-- PLACEHOLDER
+- 
 
 ### Bonus Material
 
 - [Terms of Service (TOS)](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) 
-- YouTube - [Git & GitHub Crash Course 2023 - Academind](https://www.youtube.com/watch?v=ulQA5tjJark)
+- [Git & GitHub Crash Course 2023 - Academind](https://www.youtube.com/watch?v=ulQA5tjJark): YouTube
