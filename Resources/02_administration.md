@@ -15,5 +15,5 @@
 
 ### Bonus Material
 
-- GitHub Blog: [Behind GitHub’s new authentication token formats](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-- Give the [REST API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28) a good look over or so.
+- [Behind GitHub’s new authentication token formats](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/): GitHub Blog
+- [REST API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28): Give this a good look over or so.
