@@ -16,4 +16,5 @@
 ### Bonus Material
 
 - [GitHub Actions Security Best Practices](https://blog.gitguardian.com/github-actions-security-cheat-sheet/) GitGuardian Blog
-- [GitHub Actions Full Course](https://www.youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY) YouTube glich.stream 
+- [GitHub Actions Full Course](https://www.youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY) YouTube glich.stream
+- [GitHub Actions Self Hosted Runner](https://jessicadeen.com/posts/2020/github-actions-self-hosted-runner/) By Jessica Deen
