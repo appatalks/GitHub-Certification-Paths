@@ -4,6 +4,8 @@
 
 - [Microsoft Learning Path](https://docs.microsoft.com/en-us/learn/paths/automate-workflow-github-actions/): Microsoft's Learning Path for GitHub Actions.
 - [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
+- [GitHub Actions documentation](https://docs.github.com/en/actions): Actions Docs
+- [Actions REST API](https://docs.github.com/en/rest/actions?apiVersion=2022-11-28): REST API Docs
 
 ### Tutorials
 
