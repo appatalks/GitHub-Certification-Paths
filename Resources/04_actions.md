@@ -21,4 +21,5 @@
 - [GitHub Actions Full Course](https://www.youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY) YouTube glich.stream
 - [GitHub Actions Self Hosted Runner](https://jessicadeen.com/posts/2020/github-actions-self-hosted-runner/) By Jessica Deen
 - [GitHub Actions Tutorial | From Zero to Hero in 90 mins](https://www.youtube.com/watch?v=TLB5MY9BBa4) YouTube CoderDave
+- [Push Docker Image to GH Container Registry](https://www.youtube.com/watch?v=RgZyX-e6W9E) YouTube Brian Morrison
 - [Reusable Action Examples](https://github.com/appatalks/POC-GitHub-Actions) Stuff I put together
