@@ -18,8 +18,8 @@ This project includes several milestones that represent significant achievements
 
 - **Milestone 1**: GitHub Fundamentals Certification ```Status: Planned Q? 2024```
 - **Milestone 2**: GitHub Administration Certification ```Status:``` [```PASS```](https://www.credly.com/badges/96464ff1-71bc-4f83-870e-b3875f532c00/public_url)
-- **Milestone 3**: GitHub Advanced Security Certification ```Status: Planned Q4 2023```
-- **Milestone 4**: GitHub Actions Certification ```Status: In Progress```
+- **Milestone 3**: GitHub Advanced Security Certification ```Status: In Progress```
+- **Milestone 4**: GitHub Actions Certification ```Status:``` [```PASS```](https://www.credly.com/earner/earned/badge/e3e1fba6-bfa5-466e-88a8-08ddcdbc55ae)
 
 ## Contributing
 
