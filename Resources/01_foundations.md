@@ -3,6 +3,7 @@
 ### Study Materials
 
 - [Microsoft Learning Path](https://learn.microsoft.com/en-us/collections/o1njfe825p602p) Microsoft's Learning Path for GitHub Foundations.
+- [LinkedIn Leanring Path](https://www.linkedin.com/learning/paths/prepare-for-the-github-foundations-certification) Prepare for the GitHub Foundations Certification
 
 ### Tutorials
 
