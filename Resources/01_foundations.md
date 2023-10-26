@@ -1,8 +1,8 @@
-### <a name="GitHub-Fundamentals-Certification"></a> GitHub Fundamentals Certification 
+### <a name="GitHub-Fondations-Certification"></a> GitHub Foundations Certification 
 
 ### Study Materials
 
-- 
+- [Microsoft Learning Path](https://learn.microsoft.com/en-us/collections/o1njfe825p602p) Microsoft's Learning Path for GitHub Foundations.
 
 ### Tutorials
 
