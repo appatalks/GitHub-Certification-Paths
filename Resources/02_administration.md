@@ -11,6 +11,7 @@
 
 ### Guides
 
+- [GitHub Administration Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/5zTfUfFWQknwoUVA1SAw0o/5e1498f30d64825d94e01cec7dac90fe/github-administration-exam-preparation-study-guide.pdf): Study Guide GitHub Administration
 - [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
 
 ### Bonus Material
