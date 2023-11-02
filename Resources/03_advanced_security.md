@@ -12,6 +12,7 @@
   
 ### Guides
 
+- [GitHub Advanced Security Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/4iRpJF5obPIrRlZ4FKFFSp/634d6db6b68ee2e2faaa2058c294b1fa/github-advanced-security-exam-preparation-study-guide.pdf): GitHub Advanced Security Study Guide
 - [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
 
 ### Bonus Material
