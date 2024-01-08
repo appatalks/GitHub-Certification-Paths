@@ -18,3 +18,4 @@
 ### Bonus Material
 
 - YouTube - [GitHub administration for GitHub Advanced Security - Microsoft Developer](https://www.youtube.com/watch?v=RBZWViUuc5M&t=1499s)
+- eBook - [Empowering developers to build secure software faster](https://resources.github.com/security/secure-software-faster-ebook/#form)
