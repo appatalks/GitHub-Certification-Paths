@@ -1,5 +1,7 @@
 ![Image](https://user-images.githubusercontent.com/4163156/261802892-a7d82d0f-cf77-45b9-bc59-d685aaeccb4e.png)
 
+GitHub Certifications now GA - [Read More Here](https://github.blog/2024-01-08-github-certifications-are-generally-available/)
+
 # AppaTalk's GitHub Certification Paths
 
 This repo aims to track resources, materials, links, and milestones for your journey towards achieving GitHub Certification(s).
