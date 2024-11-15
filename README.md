@@ -12,7 +12,10 @@ To get started with your study, follow these steps:
 
 1. [**Clone or Fork**](https://docs.github.com/en/get-started/quickstart/fork-a-repo): Clone or fork this repository to your GitHub account.
 2. **Resources**: Explore the [`Resources`](https://github.com/appatalks/GitHub-Certification-Paths/tree/main/Resources) section to find curated study materials, tutorials, and guides.
-3. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
+    - [Official GitHub Certifications Preparation Resources](https://resources.github.com/learn/certifications/) 
+4. **Take your certification exam**: [GitHub Certifications Exam Registration](https://examregistration.github.com/)
+5. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
+
 
 ## Milestones
 
