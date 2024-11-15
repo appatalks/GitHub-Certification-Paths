@@ -12,6 +12,7 @@ Here, you'll find a collection of curated study materials, tutorials, and guides
 - [GitHub Administation Certification](02_administration.md)
 - [GitHub Advanced Security Certification](03_advanced_security.md)
 - [GitHub Actions Certification](04_actions.md)
+- [GitHub CoPilot Certification](05_copilot.md)
 
 ----
 
