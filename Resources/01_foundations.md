@@ -11,7 +11,7 @@
 
 ### Guides
 
-- [Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/1Jq2B9ouM51RwmaLVS18KT/492186e09649413bfb82f3b5bb7403b9/github-foundations-exam-preparation-study-guide.pdf): GitHub Foundations Study Guide
+- [Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/1kmMx7AwI4qH8yIZgOmQlP/4e60030cc6c76688698652e830ea2a48/github-foundations-exam-study-guide.pdf): GitHub Foundations Study Guide
 
 ### Bonus Material
 
