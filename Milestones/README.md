@@ -11,4 +11,4 @@
 ![Credly Badge](https://github.com/appatalks/GitHub-Certification-Paths/blob/main/Milestones/GitHub%20Advanced%20Security%20Badge.png)
 
 - GitHub Copilot Certification
-![Credly Badge](https://github.com/appatalks/GitHub-Certification-Paths/blob/main/Milestones/GitHub%20Copilot%20Badge.png)
+![Credly Badge](https://github.com/appatalks/GitHub-Certification-Paths/blob/main/Milestones/GitHub%20Copilot%20Certification%20Badge.png)
