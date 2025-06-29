@@ -10,11 +10,10 @@ This repo aims to track resources, materials, links, and milestones for your jou
 
 To get started with your study, follow these steps:
 
-1. [**Clone or Fork**](https://docs.github.com/en/get-started/quickstart/fork-a-repo): Clone or fork this repository to your GitHub account.
-2. **Resources**: Explore the [`Resources`](https://github.com/appatalks/GitHub-Certification-Paths/tree/main/Resources) section to find curated study materials, tutorials, and guides.
+1. **Resources**: Explore the [`Resources`](https://github.com/appatalks/GitHub-Certification-Paths/tree/main/Resources) section to find curated study materials, tutorials, and guides.
     - [Official GitHub Certifications Preparation Resources](https://resources.github.com/learn/certifications/) 
-4. **Take your certification exam**: [GitHub Certifications Exam Registration](https://examregistration.github.com/)
-5. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
+2. **Take your certification exam**: [GitHub Certifications Exam Registration](https://examregistration.github.com/)
+3. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
 
 
 ## Milestones
@@ -26,10 +25,6 @@ This project includes several milestones that represent significant achievements
 - **Milestone 3**: GitHub Actions Certification ```Status:``` [```PASS```](https://www.credly.com/badges/e3e1fba6-bfa5-466e-88a8-08ddcdbc55ae/public_url)
 - **Milestone 4**: GitHub Advanced Security Certification ```Status:``` [```PASS```](https://www.credly.com/badges/2502911d-a59d-40a7-8596-d716ccb21739/public_url)
 - **Milestone 5**: GitHub CoPilot Certification ```Status:``` [```PASS```](https://www.credly.com/badges/a5b23fd7-a958-45be-b4d5-b0400fa0705d/public_url)
-
-## Contributing
-
-If you'd like to contribute to this repository by suggesting new resources, improving documentation, or adding tasks, feel free to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Your contributions are highly appreciated!
 
 ## License
 
