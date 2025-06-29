@@ -11,12 +11,14 @@
 
 ### Tutorials
 
-- 
+- GitHub.com [Tips for building with GitHub Copilot](https://github.com/features/copilot/tutorials)
+- GitHub YouTube [Getting started with GitHub Copilot | Tutorial](https://www.youtube.com/watch?v=n0NlxUyA7FI)
+- GitHub YouTube [GitHub Copilot 101 - Essential features | Tutorial](https://www.youtube.com/watch?v=b5xcWdzAB5c)
+- GitHub Blog [GitHub for Beginners: How to get started with GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/github-for-beginners-how-to-get-started-with-github-copilot/)
+- Visualstudio.com [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
   
-### Guides
-
-- 
-
 ### Bonus Material
 
 - Medium's [GitHub Copilot Certification and Preparation Guidelines](https://medium.com/@neungszad/github-copilot-certification-and-preparation-guidelines-c2d1a7777052)
+- GitHub Blog [GitHub Copilot in your IDE: Tips, tricks, and best practices](https://github.blog/developer-skills/github/how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
+- GitHub Docs [Adding repository custom instructions for GitHub Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot)
