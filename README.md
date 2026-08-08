@@ -39,6 +39,17 @@ Advanced Security, Copilot, and agentic AI development.
 3. Register through [GitHub Certifications Exam Registration](https://examregistration.github.com/).
 4. Record the result and verification link in [Milestones](Milestones/README.md).
 
+## Link Health Check
+
+Run **Review links for 404s** from the repository's Actions tab with
+`workflow_dispatch`. The workflow scans Markdown URLs, publishes a link-audit
+artifact, and fails when it finds an HTTP 404. It can also ask the Copilot CLI
+to review the report and suggest likely fixes. Following [GitHub's Copilot CLI
+Actions guidance](https://docs.github.com/en/copilot/how-tos/copilot-cli/automate-copilot-cli/automate-with-actions),
+the AI review uses the built-in `GITHUB_TOKEN` and requires the organization
+policy **Allow use of Copilot CLI billed to the organization**. The deterministic
+404 check runs independently of the AI review.
+
 ## Completed Milestones
 
 | # | Certification | Status | Study guide | Verification |

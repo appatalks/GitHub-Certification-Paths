@@ -1,0 +1,160 @@
+name: Review links for 404s
+
+on:
+  workflow_dispatch:
+    inputs:
+      ai_review:
+        description: Run a Copilot review of the link-audit report
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Audit Markdown URLs
+    runs-on: ubuntu-latest
+    outputs:
+      has_404: ${{ steps.audit.outputs.has_404 }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Check URLs for HTTP 404 responses
+        id: audit
+        shell: bash
+        run: |
+          set -u
+          mkdir -p link-audit
+          report="link-audit/link-audit.md"
+          urls="link-audit/urls.txt"
+          sources="link-audit/url-sources.tsv"
+          : > "$report"
+          : > "$sources"
+
+          while IFS= read -r match; do
+            source="${match%%:*}"
+            url="${match#*:}"
+            url="$(printf '%s' "$url" | sed -E 's/[),.;:`]+$//')"
+            [[ -n "$url" ]] && printf '%s\t%s\n' "$url" "$source" >> "$sources"
+          done < <(rg -o 'https?://[^[:space:]<>)"` ]+' --glob '*.md' .)
+
+          sort -u "$sources" -o "$sources"
+          cut -f1 "$sources" | sort -u > "$urls"
+
+          total=0
+          failures=0
+          not_found=0
+
+          {
+            printf '# Markdown link audit\n\n'
+            printf '| Status | Source | URL |\n| --- | --- | --- |\n'
+          } >> "$report"
+
+          while IFS= read -r url; do
+            [[ -n "$url" ]] || continue
+            total=$((total + 1))
+            status="$(curl -L -sS -o /dev/null -w '%{http_code}' \
+              --connect-timeout 10 --max-time 30 --retry 2 --retry-delay 1 \
+              "$url" || printf '000')"
+
+            case "$status" in
+              2*|3*) label="OK" ;;
+              404) label="404 NOT FOUND"; not_found=$((not_found + 1)); failures=$((failures + 1)) ;;
+              *) label="HTTP $status"; failures=$((failures + 1)) ;;
+            esac
+
+            url_for_table="${url//|/%7C}"
+            source_files="$(awk -F '\t' -v target="$url" '$1 == target { print $2 }' "$sources" | sort -u | paste -sd ', ' -)"
+            source_files="${source_files:-unknown}"
+            printf '| %s | `%s` | <%s> |\n' "$label" "$source_files" "$url_for_table" >> "$report"
+          done < "$urls"
+
+          {
+            printf '\n## Summary\n\n'
+            printf -- '- URLs checked: `%s`\n' "$total"
+            printf -- '- Non-success responses: `%s`\n' "$failures"
+            printf -- '- HTTP 404 responses: `%s`\n' "$not_found"
+          } >> "$report"
+
+          cat "$report" >> "$GITHUB_STEP_SUMMARY"
+          echo "has_404=$([[ "$not_found" -gt 0 ]] && printf true || printf false)" >> "$GITHUB_OUTPUT"
+
+          if [[ "$not_found" -gt 0 ]]; then
+            printf '\nFound %s HTTP 404 response(s).\n' "$not_found"
+            exit 1
+          fi
+
+          if [[ "$failures" -gt 0 ]]; then
+            printf '\nNo HTTP 404 responses found, but %s other request(s) failed.\n' "$failures"
+          else
+            printf '\nNo HTTP 404 responses found across %s URL(s).\n' "$total"
+          fi
+
+      - name: Upload link-audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-audit
+          path: link-audit/link-audit.md
+          if-no-files-found: error
+          retention-days: 7
+
+  ai-review:
+    name: Review audit with Copilot
+    needs: audit
+    if: always() && inputs.ai_review
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      copilot-requests: write
+    steps:
+      - name: Download link-audit report
+        uses: actions/download-artifact@v5
+        with:
+          name: link-audit
+          path: link-audit
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install Copilot CLI
+        run: npm install --global @github/copilot
+
+      - name: Prepare Copilot prompt
+        shell: bash
+        run: |
+          cat > link-audit/copilot-prompt.txt <<'EOF'
+          Review the Markdown link-audit report below.
+
+          Focus on HTTP 404 responses first. For each 404, identify the source
+          Markdown file when possible, explain whether the URL is likely stale,
+          redirected, private, or malformed, and recommend a concrete fix.
+          Treat non-404 failures as follow-up notes. Do not edit files or invent
+          replacement URLs. Return a concise checklist for a maintainer.
+
+          --- link-audit.md ---
+          EOF
+          cat link-audit/link-audit.md >> link-audit/copilot-prompt.txt
+
+      - name: Run Copilot review
+        id: inference
+        uses: actions/ai-inference@v1
+        with:
+          prompt-file: link-audit/copilot-prompt.txt
+          model: gpt-4.1
+          token: ${{ github.token }}
+
+      - name: Add Copilot review to job summary
+        if: steps.inference.outputs.response != ''
+        env:
+          COPILOT_REVIEW: ${{ steps.inference.outputs.response }}
+        run: |
+          {
+            printf '\n## Copilot review\n\n'
+            printf '%s\n' "$COPILOT_REVIEW"
+          } >> "$GITHUB_STEP_SUMMARY"
