@@ -1,5 +1,7 @@
 # GitHub Administration (GH-100)
 
+<p align="center"><img src="../assets/admin-splash.png" alt="GitHub Administration certification path" width="100%"></p>
+
 GH-100 is for people who make GitHub usable, governed, and secure for teams.
 Study it as an administrator making policy decisions, not as a tour of every
 settings page. The recurring question is: *who can do what, where, and how do we

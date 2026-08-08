@@ -20,6 +20,16 @@ Advanced Security, Copilot, and agentic AI development.
 | [Milestones](Milestones/README.md) | Certification badges and verification links |
 | [Agentic AI Developer](Resources/06_agentic_ai_developer.md) | GH-600 preparation topics and official study references |
 
+## Certification Paths
+
+| Foundations | Administration | Actions |
+| --- | --- | --- |
+| [<img src="assets/foundations-splash.png" alt="GitHub Foundations" width="240">](Resources/01_foundations.md) | [<img src="assets/admin-splash.png" alt="GitHub Administration" width="240">](Resources/02_administration.md) | [<img src="assets/actions-splash.png" alt="GitHub Actions" width="240">](Resources/04_actions.md) |
+
+| Advanced Security | Copilot | Agentic AI Developer |
+| --- | --- | --- |
+| [<img src="assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](Resources/03_advanced_security.md) | [<img src="assets/copilot-splash.png" alt="GitHub Copilot" width="240">](Resources/05_copilot.md) | [<img src="assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](Resources/06_agentic_ai_developer.md) |
+
 ## Study Path
 
 1. Review the relevant guide in [Resources](Resources/README.md), starting with

@@ -1,5 +1,7 @@
 # GitHub Actions (GH-200)
 
+<p align="center"><img src="../assets/actions-splash.png" alt="GitHub Actions certification path" width="100%"></p>
+
 GH-200 rewards people who can design, operate, secure, and explain automation.
 Build a small workflow, deliberately break it, fix it, and then harden it. YAML
 syntax matters, but the exam is really testing whether you understand the

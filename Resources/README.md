@@ -15,6 +15,16 @@ objectives, policies, and registration details. These notes are personal study
 aids, not official GitHub or Microsoft training materials. Product names,
 features, and exam objectives change, so check the source pages before exam day.
 
+## Visual Paths
+
+| Foundations | Administration | Actions |
+| --- | --- | --- |
+| [<img src="../assets/foundations-splash.png" alt="GitHub Foundations" width="240">](01_foundations.md) | [<img src="../assets/admin-splash.png" alt="GitHub Administration" width="240">](02_administration.md) | [<img src="../assets/actions-splash.png" alt="GitHub Actions" width="240">](04_actions.md) |
+
+| Advanced Security | Copilot | Agentic AI Developer |
+| --- | --- | --- |
+| [<img src="../assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](03_advanced_security.md) | [<img src="../assets/copilot-splash.png" alt="GitHub Copilot" width="240">](05_copilot.md) | [<img src="../assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](06_agentic_ai_developer.md) |
+
 | Certification | Exam | Study guide |
 | --- | --- | --- |
 | GitHub Foundations | GH-900 | [Foundations](01_foundations.md) |

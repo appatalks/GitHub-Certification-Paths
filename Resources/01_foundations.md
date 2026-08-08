@@ -1,5 +1,7 @@
 # GitHub Foundations (GH-900)
 
+<p align="center"><img src="../assets/foundations-splash.png" alt="GitHub Foundations certification path" width="100%"></p>
+
 GitHub Foundations is the on-ramp certification: the goal is to understand
 GitHub as a platform for version control, collaboration, planning, security,
 and modern software delivery. You do not need to be a specialist programmer;
