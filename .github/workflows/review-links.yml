@@ -20,7 +20,7 @@ jobs:
       has_404: ${{ steps.audit.outputs.has_404 }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Check URLs for HTTP 404 responses
         id: audit
@@ -95,7 +95,7 @@ jobs:
 
       - name: Upload link-audit report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: link-audit
           path: link-audit/link-audit.md
@@ -112,13 +112,13 @@ jobs:
       copilot-requests: write
     steps:
       - name: Download link-audit report
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
         with:
           name: link-audit
           path: link-audit
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24
 
@@ -142,19 +142,15 @@ jobs:
           cat link-audit/link-audit.md >> link-audit/copilot-prompt.txt
 
       - name: Run Copilot review
-        id: inference
-        uses: actions/ai-inference@v1
-        with:
-          prompt-file: link-audit/copilot-prompt.txt
-          model: gpt-4.1
-          token: ${{ github.token }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot --yolo -p "$(cat link-audit/copilot-prompt.txt)" \
+            > link-audit/copilot-review.md
 
       - name: Add Copilot review to job summary
-        if: steps.inference.outputs.response != ''
-        env:
-          COPILOT_REVIEW: ${{ steps.inference.outputs.response }}
         run: |
           {
             printf '\n## Copilot review\n\n'
-            printf '%s\n' "$COPILOT_REVIEW"
+            cat link-audit/copilot-review.md
           } >> "$GITHUB_STEP_SUMMARY"
