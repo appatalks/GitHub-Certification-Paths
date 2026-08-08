@@ -26,7 +26,7 @@ jobs:
         id: audit
         shell: bash
         run: |
-          set -u
+          set -euo pipefail
           mkdir -p link-audit
           report="link-audit/link-audit.md"
           urls="link-audit/urls.txt"
@@ -34,15 +34,26 @@ jobs:
           : > "$report"
           : > "$sources"
 
+          matches="$(git grep -HoE 'https?://[^[:space:]<>)"` ]+' -- '*.md' || true)"
+          if [[ -z "$matches" ]]; then
+            printf 'No external URLs were found in tracked Markdown files.\n' >&2
+            exit 1
+          fi
+
           while IFS= read -r match; do
             source="${match%%:*}"
             url="${match#*:}"
             url="$(printf '%s' "$url" | sed -E 's/[),.;:`]+$//')"
             [[ -n "$url" ]] && printf '%s\t%s\n' "$url" "$source" >> "$sources"
-          done < <(rg -o 'https?://[^[:space:]<>)"` ]+' --glob '*.md' .)
+          done <<< "$matches"
 
           sort -u "$sources" -o "$sources"
           cut -f1 "$sources" | sort -u > "$urls"
+
+          if [[ ! -s "$urls" ]]; then
+            printf 'URL extraction produced no usable URLs.\n' >&2
+            exit 1
+          fi
 
           total=0
           failures=0
