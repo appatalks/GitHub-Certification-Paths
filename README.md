@@ -1,37 +1,45 @@
-![Image](https://user-images.githubusercontent.com/4163156/261802892-a7d82d0f-cf77-45b9-bc59-d685aaeccb4e.png)
-
-GitHub Certifications now GA - [Read More Here](https://github.blog/2024-01-08-github-certifications-are-generally-available/)
+![GitHub Certifications](https://user-images.githubusercontent.com/4163156/261802892-a7d82d0f-cf77-45b9-bc59-d685aaeccb4e.png)
 
 # AppaTalk's GitHub Certification Paths
 
-This repo aims to track resources, materials, links, and milestones for your journey towards achieving GitHub Certification(s).
- 
-## Getting Started
+A practical, personal record of preparation resources and completed GitHub
+certifications. The repository is designed to help learners move from study
+planning to verified milestones with a concise, source-linked path.
 
-To get started with your study, follow these steps:
+> This is an independently maintained educational project. It is not sponsored
+> by, affiliated with, or endorsed by GitHub.
 
-1. **Resources**: Explore the [`Resources`](https://github.com/appatalks/GitHub-Certification-Paths/tree/main/Resources) section to find curated study materials, tutorials, and guides.
-    - [Official GitHub Certifications Preparation Resources](https://resources.github.com/learn/certifications/) 
-2. **Take your certification exam**: [GitHub Certifications Exam Registration](https://examregistration.github.com/)
-3. **Milestones**: Set up milestones to track your progress and accomplishments throughout the certification journey.
+## At A Glance
 
+**6 certifications passed** across GitHub foundations, administration, Actions,
+Advanced Security, Copilot, and agentic AI development.
 
-## Milestones
+| Area | What you will find |
+| --- | --- |
+| [Resources](Resources/README.md) | Curated study notes, official links, and preparation guidance |
+| [Milestones](Milestones/README.md) | Certification badges and verification links |
+| [Agentic AI Developer](Resources/06_agentic_ai_developer.md) | GH-600 preparation topics and official study references |
 
-This project includes several milestones that represent significant achievements in my personal journey to GitHub Certification. Each milestone is associated with specific tasks and deadlines to help you stay on track.
+## Study Path
 
-- **Milestone 1**: GitHub Foundations Certification ```Status:``` [```PASS```](https://www.credly.com/badges/e384c423-f21b-43fb-bbfc-4963f9a210d7/public_url)
-- **Milestone 2**: GitHub Administration Certification ```Status:``` [```PASS```](https://www.credly.com/badges/96464ff1-71bc-4f83-870e-b3875f532c00/public_url)
-- **Milestone 3**: GitHub Actions Certification ```Status:``` [```PASS```](https://www.credly.com/badges/e3e1fba6-bfa5-466e-88a8-08ddcdbc55ae/public_url)
-- **Milestone 4**: GitHub Advanced Security Certification ```Status:``` [```PASS```](https://www.credly.com/badges/2502911d-a59d-40a7-8596-d716ccb21739/public_url)
-- **Milestone 5**: GitHub CoPilot Certification ```Status:``` [```PASS```](https://www.credly.com/badges/a5b23fd7-a958-45be-b4d5-b0400fa0705d/public_url)
+1. Review the relevant guide in [Resources](Resources/README.md), starting with
+    the official references.
+2. Use [GitHub's certification preparation resources](https://resources.github.com/learn/certifications/)
+    to confirm current exam information.
+3. Register through [GitHub Certifications Exam Registration](https://examregistration.github.com/).
+4. Record the result and verification link in [Milestones](Milestones/README.md).
+
+## Completed Milestones
+
+| # | Certification | Status | Study guide | Verification |
+| --- | --- | --- | --- | --- |
+| 1 | GitHub Foundations | PASS | [Guide](Resources/01_foundations.md) | [Credly](https://www.credly.com/badges/e384c423-f21b-43fb-bbfc-4963f9a210d7/public_url) |
+| 2 | GitHub Administration | PASS | [Guide](Resources/02_administration.md) | [Credly](https://www.credly.com/badges/96464ff1-71bc-4f83-870e-b3875f532c00/public_url) |
+| 3 | GitHub Actions | PASS | [Guide](Resources/04_actions.md) | [Credly](https://www.credly.com/badges/e3e1fba6-bfa5-466e-88a8-08ddcdbc55ae/public_url) |
+| 4 | GitHub Advanced Security | PASS | [Guide](Resources/03_advanced_security.md) | [Credly](https://www.credly.com/badges/2502911d-a59d-40a7-8596-d716ccb21739/public_url) |
+| 5 | GitHub Copilot | PASS | [Guide](Resources/05_copilot.md) | [Credly](https://www.credly.com/badges/a5b23fd7-a958-45be-b4d5-b0400fa0705d/public_url) |
+| 6 | GitHub Certified: Agentic AI Developer (GH-600) | PASS | [Guide](Resources/06_agentic_ai_developer.md) | [Microsoft Learn](https://learn.microsoft.com/en-us/users/stevenbennett-0782/credentials/8133bb3ed12cbea) |
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute it.
-
----
-
-Happy learning and good luck on your journey to GitHub Certification! 🚀
-
-**Note: This Repo is for personal education and is not officially sponsored by or affiliated with GitHub.**
+This project is licensed under the [MIT License](LICENSE).

@@ -1,24 +1,73 @@
-### <a name="GitHub-CoPilot-Certification"></a> GitHub CoPilot Certification
+# GitHub Copilot (GH-300)
 
-### Study Materials
+GH-300 is about using Copilot effectively and responsibly across the developer
+workflow. Learn the features, but spend equal time on context, verification,
+privacy, policy, and the limits of generated output. The best answer is rarely
+"accept the suggestion"; it is "use the right context, then inspect the result."
 
-- [CoPilot Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/3i7ISEUsTLBgOGrWrML07y/dd586e2b2b607988e2679ed8cce36a76/github-copilot-exam-preparation-study-guide.pdf)
-- [Microsoft Learning Path](https://learn.microsoft.com/en-us/training/paths/copilot/): Microsoft's Learning Path for GitHub CoPilot.
-  - [MS Learning Search "GitHub Copilot"](https://learn.microsoft.com/en-us/training/browse/?terms=GitHub%20Copilot): There's `25` results as of this line update.
-- [linkedin Learning - Practical GitHub Copilot](https://www.linkedin.com/learning/practical-github-copilot/)   
-- [GitHub CoPilot documentation](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot): CoPilot Docs
-- [CoPilot REST API](https://docs.github.com/en/rest/copilot/copilot-metrics?apiVersion=2022-11-28): REST API Docs
+## Start Here
 
-### Tutorials
+- [Official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/): current exam details, policies, and registration.
+- [GH-300 study guide](https://aka.ms/GH300-StudyGuide): skills measured and preparation references.
+- [GitHub Learn catalog](https://learn.github.com/certification/COPILOT): official GitHub learning catalog; sign-in may be required.
+- [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/): Microsoft Learn modules covering responsible use, prompting, environments, management, and productivity.
+- [GitHub Copilot Fundamentals Part 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/): continuation of the official Microsoft Learn preparation path.
+- [GitHub Copilot documentation](https://docs.github.com/en/copilot): current features, concepts, administration, and responsible-use guidance.
+- [Official practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/): open the practice assessment from the certification page after studying.
 
-- GitHub.com [Tips for building with GitHub Copilot](https://github.com/features/copilot/tutorials)
-- GitHub YouTube [Getting started with GitHub Copilot | Tutorial](https://www.youtube.com/watch?v=n0NlxUyA7FI)
-- GitHub YouTube [GitHub Copilot 101 - Essential features | Tutorial](https://www.youtube.com/watch?v=b5xcWdzAB5c)
-- GitHub Blog [GitHub for Beginners: How to get started with GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/github-for-beginners-how-to-get-started-with-github-copilot/)
-- Visualstudio.com [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
-  
-### Bonus Material
+## What to Know
 
-- Medium's [GitHub Copilot Certification and Preparation Guidelines](https://medium.com/@neungszad/github-copilot-certification-and-preparation-guidelines-c2d1a7777052)
-- GitHub Blog [GitHub Copilot in your IDE: Tips, tricks, and best practices](https://github.blog/developer-skills/github/how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
-- GitHub Docs [Adding repository custom instructions for GitHub Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot)
+The official GH-300 study guide lists these six weighted skill areas. The single
+features domain includes distinct subsections for IDE and CLI use, broader
+Copilot capabilities, and organization-wide settings and policies:
+
+1. **Use GitHub Copilot responsibly (15-20%):** verify output, understand limitations, protect data, and apply human judgment.
+2. **Use GitHub Copilot features (25-30%):** IDE and CLI use, inline suggestions, Chat, agent mode, sessions, code review, Spaces, Spark, pull request summaries, customization, sub-agents, audit logs, subscriptions, and organization-wide feature policies.
+3. **Understand GitHub Copilot data and architecture (10-15%):** data usage, flow and sharing, input processing, prompt building, suggestion lifecycle, and limitations.
+4. **Apply prompt engineering and context crafting (10-15%):** clear goals, relevant files, constraints, examples, zero-shot and few-shot prompting, and iterative task decomposition.
+5. **Improve developer productivity with GitHub Copilot (10-15%):** generation, refactoring, documentation, testing, learning, modernization, quality, and security workflows.
+6. **Configure privacy, content exclusions, and safeguards (10-15%):** privacy settings, exclusions, public-code matching controls, ownership, and troubleshooting.
+
+Read [prompt engineering](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering),
+[best practices](https://docs.github.com/en/copilot/get-started/best-practices),
+[code referencing](https://docs.github.com/en/copilot/concepts/completions/code-referencing),
+and [content exclusion](https://docs.github.com/en/copilot/concepts/context/content-exclusion)
+as one connected topic: better context improves usefulness, while governance
+defines what context Copilot may access.
+
+## Hands-On Missions
+
+### Mission 1: Prompt Lab
+
+Ask Copilot to explain, test, and refactor the same small function three ways:
+with a vague prompt, a prompt containing constraints, and a prompt that names
+the relevant files and acceptance criteria. Compare correctness, omissions, and
+follow-up questions.
+
+### Mission 2: Verify the Pair Programmer
+
+Generate a change and a test. Inspect the diff, run the test, check dependencies
+and security assumptions, and look for code references. Practice explaining why
+human review remains necessary even when the output looks polished.
+
+### Mission 3: Set the Boundary
+
+Read [repository custom instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
+and content exclusion guidance. Draft a small policy describing allowed data,
+excluded content, review expectations, and what users should do when Copilot's
+answer conflicts with project rules.
+
+## Quick Self-Check
+
+- How do inline suggestions, Chat, CLI, code review, and agentic features differ?
+- What context can improve a response, and what context should be excluded?
+- Why can a generated answer be plausible yet still unsafe or incorrect?
+- What is code referencing, and why does it matter during review?
+- Which controls are personal settings, repository instructions, organization policies, or enterprise governance?
+
+## Keep Current
+
+Copilot plans, models, features, and policies move quickly. Confirm the current
+domains, exam duration, languages, and practice assessment on the [official
+GH-300 page](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/)
+before exam day.

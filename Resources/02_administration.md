@@ -1,20 +1,65 @@
-### <a name="GitHub-Administration-Certification"></a> GitHub Administration Certification
+# GitHub Administration (GH-100)
 
-### Study Materials
+GH-100 is for people who make GitHub usable, governed, and secure for teams.
+Study it as an administrator making policy decisions, not as a tour of every
+settings page. The recurring question is: *who can do what, where, and how do we
+know it is working?*
 
-- [Microsoft Learning Path](https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03): Microsoft's Learning Path for GitHub Administration.
-- [Linkedin Learning GitHub Collection](https://www.linkedin.com/learning-login/share?account=3322&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F7085622970492039168%3Ftrk%3Dshare_collection_url%26shareId%3DadxbYWb6SH6JDq2EiJIikw%253D%253D): Curated Linkedin Learning Resources
+## Start Here
 
-### Tutorials
+- [Official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/): current exam details, policies, and registration.
+- [GH-100 study guide](https://aka.ms/GH100-StudyGuide): skills measured and preparation references.
+- [GitHub Learn catalog](https://learn.github.com/certification/ADMIN): official GitHub learning catalog; sign-in may be required.
+- [GitHub for enterprises](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises): enterprise concepts and deployment options.
+- [GitHub administration documentation](https://docs.github.com/en/enterprise-cloud@latest/admin): the administrator's reference hub.
+- [Official practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/): open the practice assessment from the certification page after studying.
 
-- [GitHub Skills Lab 1](https://github.com/skills/hello-github-actions): Hello GitHub Actions
+## What to Know
 
-### Guides
+The official GH-100 domains are:
 
-- [GitHub Administration Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/5zTfUfFWQknwoUVA1SAw0o/5e1498f30d64825d94e01cec7dac90fe/github-administration-exam-preparation-study-guide.pdf): Study Guide GitHub Administration
-- [Public Prep Guide](https://github.com/nolecram/github-certification-preparation-guide): External Prep Guide with Practice Exams
+1. **Identity and access management (15-20%):** authentication, authorization, teams, roles, external identity, and access lifecycle decisions.
+2. **Enterprise environment (10-15%):** enterprise, organization, and repository boundaries; policies; settings; and deployment choices.
+3. **Secure development and compliance (25-30%):** rulesets, branch protection, auditability, security policies, data protection, and compliance controls.
+4. **GitHub Actions administration (20-25%):** Actions policies, runner choices, secrets, permissions, reusable automation, and governance.
+5. **Monitoring and optimization (10-15%):** audit logs, usage, limits, billing signals, reliability, and improving the platform over time.
 
-### Bonus Material
+Review the [GitHub account and permission concepts](https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github),
+then use the [Actions documentation](https://docs.github.com/en/actions) and
+[security documentation](https://docs.github.com/en/code-security) to connect
+policy decisions to the developer experience.
 
-- [Behind GitHub’s new authentication token formats](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/): GitHub Blog
-- [REST API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28): Give this a good look over or so.
+## Hands-On Missions
+
+### Mission 1: Design the Boundary
+
+Sketch an enterprise containing two organizations and several repositories.
+Assign owners, teams, repository roles, and a ruleset. Explain which decision
+belongs at the enterprise, organization, repository, or team level.
+
+### Mission 2: Govern a Workflow
+
+Take a simple Actions workflow and write an administration checklist: allowed
+actions, `GITHUB_TOKEN` permissions, secret scope, runner type, fork behavior,
+environment protection, and audit evidence.
+
+### Mission 3: Investigate the Signal
+
+Choose a hypothetical access or policy change. Describe which audit or usage
+signal you would inspect, what evidence you would collect, and which control you
+would adjust. The goal is a defensible operating decision, not memorizing a menu.
+
+## Quick Self-Check
+
+- How do enterprise, organization, repository, team, and individual permissions relate?
+- When should a rule be enforced with a ruleset rather than documented as guidance?
+- How do authentication and authorization solve different problems?
+- What can administrators control for Actions without blocking useful automation?
+- Which logs or metrics help distinguish a policy problem from a usage or reliability problem?
+
+## Keep Current
+
+Administration features and plan requirements change frequently. Confirm the
+current domain weights, exam language, duration, and practice assessment on the
+[official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/)
+before exam day.
