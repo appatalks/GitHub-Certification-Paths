@@ -6,20 +6,6 @@ A practical, personal record of preparation resources and completed GitHub
 certifications. The repository is designed to help learners move from study
 planning to verified milestones with a concise, source-linked path.
 
-> This is an independently maintained educational project. It is not sponsored
-> by, affiliated with, or endorsed by GitHub.
-
-## At A Glance
-
-**6 certifications passed** across GitHub foundations, administration, Actions,
-Advanced Security, Copilot, and agentic AI development.
-
-| Area | What you will find |
-| --- | --- |
-| [Resources](Resources/README.md) | Curated study notes, official links, and preparation guidance |
-| [Milestones](Milestones/README.md) | Certification badges and verification links |
-| [Agentic AI Developer](Resources/06_agentic_ai_developer.md) | GH-600 preparation topics and official study references |
-
 ## Certification Paths
 
 | Foundations | Administration | Actions |
@@ -64,3 +50,6 @@ policy **Allow use of Copilot CLI billed to the organization**. The deterministi
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+> This is an independently maintained educational project. It is not sponsored
+> by, affiliated with, or endorsed by GitHub.
