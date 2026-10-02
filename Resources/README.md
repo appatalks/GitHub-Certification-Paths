@@ -1,7 +1,8 @@
 ## Certification Resources
 
-This section collects study notes, official references, and preparation links for
-the GitHub certification paths tracked in this repository.
+Each certification has its own folder with a study guide, official references,
+and preparation links. The GitHub Administration folder also contains a weekly
+tutoring sequence with step-by-step student guides and between-lesson practice.
 
 Each guide follows the same rhythm:
 
@@ -19,20 +20,27 @@ features, and exam objectives change, so check the source pages before exam day.
 
 | Foundations | Administration | Actions |
 | --- | --- | --- |
-| [<img src="../assets/foundations-splash.png" alt="GitHub Foundations" width="240">](01_foundations.md) | [<img src="../assets/admin-splash.png" alt="GitHub Administration" width="240">](02_administration.md) | [<img src="../assets/actions-splash.png" alt="GitHub Actions" width="240">](04_actions.md) |
+| [<img src="../assets/foundations-splash.png" alt="GitHub Foundations" width="240">](foundations/README.md) | [<img src="../assets/admin-splash.png" alt="GitHub Administration" width="240">](administration/README.md) | [<img src="../assets/actions-splash.png" alt="GitHub Actions" width="240">](actions/README.md) |
 
 | Advanced Security | Copilot | Agentic AI Developer |
 | --- | --- | --- |
-| [<img src="../assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](03_advanced_security.md) | [<img src="../assets/copilot-splash.png" alt="GitHub Copilot" width="240">](05_copilot.md) | [<img src="../assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](06_agentic_ai_developer.md) |
+| [<img src="../assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](advanced-security/README.md) | [<img src="../assets/copilot-splash.png" alt="GitHub Copilot" width="240">](copilot/README.md) | [<img src="../assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](agentic-ai-developer/README.md) |
 
 | Certification | Exam | Study guide |
 | --- | --- | --- |
-| GitHub Foundations | GH-900 | [Foundations](01_foundations.md) |
-| GitHub Administration | GH-100 | [Administration](02_administration.md) |
-| GitHub Advanced Security | GH-500 | [Advanced Security](03_advanced_security.md) |
-| GitHub Actions | GH-200 | [Actions](04_actions.md) |
-| GitHub Copilot | GH-300 | [Copilot](05_copilot.md) |
-| GitHub Certified: Agentic AI Developer | GH-600: Developing in Agentic AI Systems | [Agentic AI Developer](06_agentic_ai_developer.md) |
+| GitHub Foundations | GH-900 | [Foundations](foundations/README.md) |
+| GitHub Administration | GH-100 | [Administration](administration/README.md) |
+| GitHub Advanced Security | GH-500 | [Advanced Security](advanced-security/README.md) |
+| GitHub Actions | GH-200 | [Actions](actions/README.md) |
+| GitHub Copilot | GH-300 | [Copilot](copilot/README.md) |
+| GitHub Certified: Agentic AI Developer | GH-600: Developing in Agentic AI Systems | [Agentic AI Developer](agentic-ai-developer/README.md) |
+
+## GH-100 Weekly Tutoring
+
+The [Administration lesson plans](administration/lessons/README.md) provide an
+eight-lesson sequence for student-led weekly tutoring at your own pace. Each
+guide includes simple definitions, supplied example records, detailed steps,
+and completion checks, with separate between-lesson practice.
 
 
 

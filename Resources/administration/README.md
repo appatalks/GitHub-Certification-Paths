@@ -1,18 +1,20 @@
 # GitHub Administration (GH-100)
 
-<p align="center"><img src="../assets/admin-splash.png" alt="GitHub Administration certification path" width="100%"></p>
+<p align="center"><img src="../../assets/admin-splash.png" alt="GitHub Administration certification path" width="100%"></p>
 
 GH-100 is for people who make GitHub usable, governed, and secure for teams.
 Study it as an administrator making policy decisions, not as a tour of every
 settings page. The recurring question is: *who can do what, where, and how do we
 know it is working?*
 
+For a structured weekly tutoring path, see the [eight-lesson plan](lessons/README.md).
+
 ## Start Here
 
 - [Official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/): current exam details, policies, and registration.
 - [GH-100 study guide](https://aka.ms/GH100-StudyGuide): skills measured and preparation references.
 - [GitHub Learn catalog](https://learn.github.com/certification/ADMIN): official GitHub learning catalog; sign-in may be required.
-- [GitHub for enterprises](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises): enterprise concepts and deployment options.
+- [GitHub for enterprises](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises): GitHub Enterprise Cloud administration concepts.
 - [GitHub administration documentation](https://docs.github.com/en/enterprise-cloud@latest/admin): the administrator's reference hub.
 - [Official practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/): open the practice assessment from the certification page after studying.
 

@@ -1,6 +1,6 @@
 # GitHub Certified: Agentic AI Developer (GH-600)
 
-<p align="center"><img src="../assets/ai-developer-splash.png" alt="GitHub Certified Agentic AI Developer certification path" width="100%"></p>
+<p align="center"><img src="../../assets/ai-developer-splash.png" alt="GitHub Certified Agentic AI Developer certification path" width="100%"></p>
 
 Official exam title: **GH-600: Developing in Agentic AI Systems**.
 

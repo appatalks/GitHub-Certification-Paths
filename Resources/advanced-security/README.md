@@ -1,6 +1,6 @@
 # GitHub Advanced Security (GH-500)
 
-<p align="center"><img src="../assets/advsec-splash.png" alt="GitHub Advanced Security certification path" width="100%"></p>
+<p align="center"><img src="../../assets/advsec-splash.png" alt="GitHub Advanced Security certification path" width="100%"></p>
 
 GH-500 is a prevention-and-response certification. The strongest preparation
 loop is simple: enable a feature, create or inspect a finding, triage it, fix or

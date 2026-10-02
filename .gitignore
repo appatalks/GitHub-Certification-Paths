@@ -1,0 +1,12 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+/tmp/
+
+# Editor backup and swap files
+*~
+*.swp
+*.swo

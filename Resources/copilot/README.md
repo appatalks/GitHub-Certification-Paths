@@ -1,6 +1,6 @@
 # GitHub Copilot (GH-300)
 
-<p align="center"><img src="../assets/copilot-splash.png" alt="GitHub Copilot certification path" width="100%"></p>
+<p align="center"><img src="../../assets/copilot-splash.png" alt="GitHub Copilot certification path" width="100%"></p>
 
 GH-300 is about using Copilot effectively and responsibly across the developer
 workflow. Learn the features, but spend equal time on context, verification,
