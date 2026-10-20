@@ -22,9 +22,9 @@ features, and exam objectives change, so check the source pages before exam day.
 | --- | --- | --- |
 | [<img src="../assets/foundations-splash.png" alt="GitHub Foundations" width="240">](foundations/README.md) | [<img src="../assets/admin-splash.png" alt="GitHub Administration" width="240">](administration/README.md) | [<img src="../assets/actions-splash.png" alt="GitHub Actions" width="240">](actions/README.md) |
 
-| Advanced Security | Copilot | Agentic AI Developer |
-| --- | --- | --- |
-| [<img src="../assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](advanced-security/README.md) | [<img src="../assets/copilot-splash.png" alt="GitHub Copilot" width="240">](copilot/README.md) | [<img src="../assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](agentic-ai-developer/README.md) |
+| Advanced Security | Copilot | Agentic AI Developer | Agentic AI Business Professional |
+| --- | --- | --- | --- |
+| [<img src="../assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](advanced-security/README.md) | [<img src="../assets/copilot-splash.png" alt="GitHub Copilot" width="240">](copilot/README.md) | [<img src="../assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](agentic-ai-developer/README.md) | **GH-700**<br>Enhancing Operational Efficiency with Agentic AI<br>[Study path](agentic-ai-business-professional/README.md) |
 
 | Certification | Exam | Study guide |
 | --- | --- | --- |
@@ -34,6 +34,7 @@ features, and exam objectives change, so check the source pages before exam day.
 | GitHub Actions | GH-200 | [Actions](actions/README.md) |
 | GitHub Copilot | GH-300 | [Copilot](copilot/README.md) |
 | GitHub Certified: Agentic AI Developer | GH-600: Developing in Agentic AI Systems | [Agentic AI Developer](agentic-ai-developer/README.md) |
+| GitHub Certified: Agentic AI Business Professional | GH-700: Enhancing Operational Efficiency with Agentic AI | [Agentic AI Business Professional](agentic-ai-business-professional/README.md) |
 
 ## GH-100 Weekly Tutoring
 
