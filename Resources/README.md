@@ -34,6 +34,7 @@ features, and exam objectives change, so check the source pages before exam day.
 | GitHub Actions | GH-200 | [Actions](actions/README.md) |
 | GitHub Copilot | GH-300 | [Copilot](copilot/README.md) |
 | GitHub Certified: Agentic AI Developer | GH-600: Developing in Agentic AI Systems | [Agentic AI Developer](agentic-ai-developer/README.md) |
+| GitHub Certified: Agentic AI Business Professional | GH-700: Enhancing Operational Efficiency with Agentic AI | [Agentic AI Business Professional](agentic-ai-business-professional/README.md) |
 
 ## GH-100 Weekly Tutoring
 
