@@ -12,11 +12,6 @@
 | Advanced Security | Copilot | Agentic AI Developer | Agentic AI Business Professional |
 | [<img src="assets/advsec-splash.png" alt="GitHub Advanced Security" width="240">](Resources/advanced-security/README.md) | [<img src="assets/copilot-splash.png" alt="GitHub Copilot" width="240">](Resources/copilot/README.md) | [<img src="assets/ai-developer-splash.png" alt="GitHub Agentic AI Developer" width="240">](Resources/agentic-ai-developer/README.md) | **GH-700**<br>Enhancing Operational Efficiency with Agentic AI<br>[Study path](Resources/agentic-ai-business-professional/README.md) |
 
-## Agentic AI Business Professional (GH-700)
-
-Start with the [GH-700 study path](Resources/agentic-ai-business-professional/README.md)
-for the beta exam **Enhancing Operational Efficiency with Agentic AI**.
-
 ## Study Path
 
 1. Review the relevant certification folder in [Resources](Resources/README.md),
@@ -37,6 +32,7 @@ for the beta exam **Enhancing Operational Efficiency with Agentic AI**.
 | 4 | GitHub Advanced Security | PASS | [Guide](Resources/advanced-security/README.md) | [Credly](https://www.credly.com/badges/2502911d-a59d-40a7-8596-d716ccb21739/public_url) |
 | 5 | GitHub Copilot | PASS | [Guide](Resources/copilot/README.md) | [Credly](https://www.credly.com/badges/a5b23fd7-a958-45be-b4d5-b0400fa0705d/public_url) |
 | 6 | GitHub Certified: Agentic AI Developer (GH-600) | PASS | [Guide](Resources/agentic-ai-developer/README.md) | [Microsoft Learn](https://learn.microsoft.com/en-us/users/stevenbennett-0782/credentials/8133bb3ed12cbea) |
+| 7 | GitHub Certified: Agentic AI Business Professional (GH-700) | Target: `Q1 2027` | [Guide](Resources/agentic-ai-business-professional/README.md) | N/A |
 
 ## License
 
